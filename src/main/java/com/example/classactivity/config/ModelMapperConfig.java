@@ -1,4 +1,4 @@
-package com.example.classactivity.controller;
+package com.example.classactivity.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
