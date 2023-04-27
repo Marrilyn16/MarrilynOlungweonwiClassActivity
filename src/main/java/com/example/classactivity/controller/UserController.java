@@ -20,7 +20,7 @@ public class UserController {
     @Autowired
     private ModelMapper modelMapper;
 
-    @PostMapping
+    @PostMapping("/create")
     public ResponseEntity<UserDTO> createUser(@RequestBody UserDTO userDTO) {
         User user = modelMapper.map(userDTO, User.class);
         User savedUser = userRepository.save(user);
